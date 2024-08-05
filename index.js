@@ -11,9 +11,14 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
-
+let fullName ="Masoumaha Ashknani"
+console.log (fullName)
+let yeareOfBirth =1983;
+console.log (yeareOfBirth)
+let hobby ="cooking"
+console.log (hobby)
+let image ="https://static.vecteezy.com/system/resources/previews/024/524/034/original/woman-cooking-food-free-png.png"
+console.log (image)
 
 
 /**
@@ -32,8 +37,9 @@
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
 // const hobbyString =
-
-
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${2024-yeareOfBirth}`
+const hobbyString = `My hobby is ${hobby}`
 
 
 /**
@@ -44,15 +50,19 @@
 let stars = 0;
 
 function incrementBy1() {
+  stars= stars +1
   // Increment stars by 1 👇🏻
 }
 function decrementBy1() {
+  stars=stars-1
   // decrement stars by 1 👇🏻
 }
 
 function incrementBy2() {
+  stars=stars+2
   // Increment stars by 2 👇🏻
 }
 function decrementBy2() {
+  stars=stars-2
   // decrement stars by 2 👇🏻
 }
